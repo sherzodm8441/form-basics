@@ -12,16 +12,40 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>PLZ ANSWA THE QUESTIONS BELOW</h1>
         <hr>
-        <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
+        <form action="http://www.w3schools.com/action_page.php" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            <input type="text" name="name" placeholder="John Doe" required><br> E-mail:
+            <input type="email" name="email" placeholder="jondoe@hmail.com"><br>
 
             <!--add your own inputs below-->
-
+       <input type="radio" name="gender" value="male">Male
+       <input type="radio" name="gender" value="female">Female <br>
+      School: <input type="text" name="school"><br>
+      Age: <input type="text" name="age"><br>
+      <p>How many siblings do you have?</p>
+      <select name="siblings">
+           
+          <option value="0" selected>0</option>
+          <option value="1" >1</option> 
+          <option value="2">2</option>
+          <option value="3">3</option> 
+          <option value="4">4</option>
+          <option value="5">5</option> 
+          <option value="6">6</option> 
+          <option value="7">7</option>
+          <option value="8">8</option> 
+          <option value="9">9</option> 
+          <option value="10">10</option>
+          
+          
+          
+      </select><br>
+      
+      <input type="checkbox" name="OS-0" value="android">I use Android 
+      <input type="checkbox" name="Os-1" value="iOS"> I use iOS
 
 
 
